@@ -22,3 +22,36 @@
   align-items: center;
   flex-direction: column;
 }
+
+.top-head {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: thin solid grey;
+}
+
+.direct {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+}
+
+.direct h3 {
+  font-size: 1.3rem;
+}
+
+.edit {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.edit .fas {
+  font-size: 25px;
+}
