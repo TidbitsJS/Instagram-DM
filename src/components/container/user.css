@@ -1,0 +1,29 @@
+.user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem;
+}
+
+.profile {
+  width: 70px;
+  height: 70px;
+  border: thin solid black;
+  border-radius: 50%;
+}
+
+.info {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.about {
+  margin-top: 0.3rem;
+}
+
+.about span {
+  margin-left: 0.5rem;
+}
