@@ -44,10 +44,18 @@
   font-size: 25px;
 }
 
+.fa-paper-plane {
+  color: dodgerblue;
+}
+
+.fa-heart {
+  color: red;
+}
+
 .icons .avatar {
   margin-left: 0.5rem;
-  width: 35px;
-  height: 35px;
+  width: 37px;
+  height: 37px;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 2px solid #111;
 }
