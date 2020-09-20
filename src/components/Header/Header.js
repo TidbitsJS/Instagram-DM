@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./header.css";
 
 export class Header extends Component {
   render() {
@@ -10,7 +11,13 @@ export class Header extends Component {
         <div className="search">
           <input type="text" placeholder="Search" />
         </div>
-        <div className="icons"></div>
+        <div className="icons">
+          <i className="fas fa-home"></i>
+          <i className="fas fa-paper-plane"></i>
+          <i className="fas fa-compass"></i>
+          <i className="fas fa-heart"></i>
+          <div className="avatar"></div>
+        </div>
       </div>
     );
   }
