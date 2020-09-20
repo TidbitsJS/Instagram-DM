@@ -15,7 +15,10 @@ export class User extends Component {
           </div>
           <div className="about">
             <p>
-              Sent a message <span>.{Math.floor(Math.random() * 24 + 1)}h</span>
+              Sent a message{" "}
+              <span style={{ color: "grey" }}>
+                .{Math.floor(Math.random() * 24 + 1)}h
+              </span>
             </p>
           </div>
         </div>
