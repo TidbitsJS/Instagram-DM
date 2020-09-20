@@ -1,12 +1,15 @@
 import React from "react";
 import "./App.css";
 import Header from "./components/Header/Header";
+import Body from "./components/Body/Body";
 
 function App() {
   return (
     <>
       <Header />
-      <div className="body"></div>
+      <div className="body">
+        <Body />
+      </div>
     </>
   );
 }
