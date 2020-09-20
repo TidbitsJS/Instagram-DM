@@ -25,7 +25,9 @@ export class Body extends Component {
             </div>
           </div>
 
-          <User />
+          <div className="user-box">
+            <User />
+          </div>
         </div>
         <div className="void">
           <Message />

@@ -8,7 +8,7 @@ function generateUser() {
   });
 }
 
-Array.from({ length: 5 }, () => generateUser());
+Array.from({ length: 15 }, () => generateUser());
 
 generateUser();
 
