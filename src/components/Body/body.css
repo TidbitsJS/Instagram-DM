@@ -6,7 +6,7 @@
   height: 510px;
   border: thin solid rgba(0, 0, 0, 0.225);
   background-color: #fff;
-  box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.1);
   padding-bottom: 0.2rem;
   border-radius: 5px;
 }
