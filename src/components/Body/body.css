@@ -4,15 +4,19 @@
   align-items: center;
   width: 970px;
   height: 510px;
-  border: thin solid gray;
+  border: thin solid rgba(0, 0, 0, 0.225);
   background-color: #fff;
+  box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.3);
+  padding-bottom: 0.2rem;
+  border-radius: 5px;
 }
 
 .messages {
   flex: 1.1;
   width: 100%;
   height: 100%;
-  border-right: 1px solid gray;
+  border-right: thin solid rgba(0, 0, 0, 0.325);
+  padding-right: 0.1rem;
 }
 
 .void {
