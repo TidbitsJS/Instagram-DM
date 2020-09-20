@@ -15,6 +15,14 @@ export class Body extends Component {
               <i className="fas fa-edit"></i>
             </div>
           </div>
+          <div className="inbox-head">
+            <div className="primary">
+              <h3>Primary</h3>
+            </div>
+            <div className="requests">
+              <h3>Requests (30)</h3>
+            </div>
+          </div>
         </div>
         <div className="void">
           <Message />
