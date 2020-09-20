@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./body.css";
 import Message from "../container/Message.js";
+import User from "../container/User";
 
 export class Body extends Component {
   render() {
@@ -23,6 +24,8 @@ export class Body extends Component {
               <h3>Requests (30)</h3>
             </div>
           </div>
+
+          <User />
         </div>
         <div className="void">
           <Message />
