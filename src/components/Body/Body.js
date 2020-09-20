@@ -18,10 +18,10 @@ export class Body extends Component {
           </div>
           <div className="inbox-head">
             <div className="primary">
-              <h3>Primary</h3>
+              <p>Primary</p>
             </div>
             <div className="requests">
-              <h3>Requests (30)</h3>
+              <p>Requests (30)</p>
             </div>
           </div>
 
